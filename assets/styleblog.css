@@ -37,26 +37,3 @@ header .overlay {
   opacity: 0.5;
   z-index: 1;
 }
-
-.header-title {
-  background-image: linear-gradient(var(--trans), var(--black));
-  width: 100%;
-  padding: 128px 32px;
-  /* position: absolute; */
-  bottom: 0;
-}
-
-/* Media Query for devices withi coarse pointers and no hover functionality */
-
-/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
-
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
-      no-repeat center center scroll;
-  }
-
-  header video {
-    display: none;
-  }
-}

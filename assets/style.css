@@ -20,6 +20,9 @@
   color: white;
   font-weight: bold;
 }
+.link:hover {
+  color: black;
+}
 .hello {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
