@@ -1,6 +1,6 @@
 //Tugas 1
 const nama = "Galang";
-var uts,uas,rata;
+let uts,uas,rata;
 uts = 75;
 uas = 70;
 rata = (uts+uas)/2;
